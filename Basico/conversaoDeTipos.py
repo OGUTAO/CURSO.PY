@@ -16,7 +16,7 @@ print(preco2)
 preco3 = 10 # vai imprimir um valor inteiro
 print(preco3)
 print(preco3 / 2) # qualquer divisão em python trasnforma o valor inteiro em float
-print(preco3 // 2) # se usar dois // na divisão ele retorna o valor da divisão so que inteiro em vez de float
+print(preco3 // 2) # se usar dois (//) na divisão ele retorna o valor da divisão so que inteiro em vez de float
 
 #exemplo 4: transformando valores para strings
 preco4 = 10.50
@@ -31,4 +31,10 @@ preco5 = "10.50"
 idade2 = "28"
 print(float(preco5)) # mesma coisa de transformar int para float porem se vc fizer a transformação já dentro do print ele não arredonda o valor
 print(int(idade2)) # vai fazer o mesmo so que transformar str para int
+
+#exemplo 6: 
+print(10 % 3) # (%) isso é um módulo (resto da divisão) ou seja 10/3 = 9 sobra 1 logo o resultado é "1"
+
+#exemplo 7:
+print(2 ** 3) # (**) exponencial ou seja 2 elevado a 3
 
