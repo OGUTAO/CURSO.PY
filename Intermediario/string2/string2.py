@@ -30,7 +30,7 @@ print(f"Nome: {nome} idade: {idade} saldo: {saldo}")
 # aqui ele só vai imprimir para servir de exemplo pro próximo código
 
 print(f"Nome: {nome} idade: {idade} saldo: {saldo: 10.2f}")
-# nesse caso ele vai fazer o mesmo do exemplo de cima porem o saldo vai pular primeiro 10 casas para ser impresso e dpois vai imprimir somente duas casas após o ponto flutuante pois foi isso que eu exigi no código
+# nesse caso ele vai fazer o mesmo do exemplo de cima porem o saldo vai pular primeiro 10 casas para ser impresso e depois vai imprimir somente duas casas após o ponto flutuante pois foi isso que eu exigi no código
 
 print(f"Nome: {nome} idade: {idade} saldo: {saldo: .2f}")
 # mesma coisa do exemplo de cima porem ele não vai pular nenhuma casa para começar a imprimri o número de ponto flutuante que eu pedi que ele imprimisse
